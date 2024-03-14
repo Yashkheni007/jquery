@@ -65,7 +65,6 @@ function calculateTotal(cal) {
     if (newRollNo > 2) {
         calculateValue();
     }
-
 }
 
 function calculateValue() {
@@ -98,7 +97,6 @@ function addMultipleRow() {
             for (let i = 0; i < row_number; i++) {
                 addRow();
             }
-
         } else {
             alert("Please enter a valid number greater than 0");
         }
