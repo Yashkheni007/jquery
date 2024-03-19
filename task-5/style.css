@@ -1,0 +1,98 @@
+body{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  background-color: #fcf9e3;
+}
+
+#main-div {
+  padding: 30px;
+  height: fit-content;
+  width: 300px;
+  border: 1px solid #ba9c9c;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #faedcd;
+}
+
+#sub-div{
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#action-btn{
+  display: flex;
+}
+
+h2{
+  color: #665043;
+  margin-top: 0px;
+}
+
+#todo{
+  width: 71%;
+  box-sizing: border-box;
+  padding: 7px;
+  margin-bottom: 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#add-btn{
+  width: 27%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #4a47dc;
+  color: white;
+}
+
+#add-btn:hover{
+  cursor: pointer;
+  background-color: #2e2be7;
+}
+
+#edit-btn{
+  width: 40%;
+  padding: 7px;
+  margin-left: 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #409d6d;
+  color: white;
+}
+
+#edit-btn:hover{
+  cursor: pointer;
+  background-color: #1a8f52;
+}
+
+#delete-btn{
+  width: 55%;
+  padding: 7px;
+  margin-left: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #de514f;
+  color: white;
+}
+
+#delete-btn:hover{
+  cursor: pointer;
+  background-color: #ce3532;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+li{
+  width: 62%;
+  padding: 5px;
+  background-color: #fdfcdc;
+}
