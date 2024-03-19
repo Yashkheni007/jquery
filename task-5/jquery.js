@@ -15,8 +15,8 @@ $(document).ready(function(){
 
   $(document).on("click" , "#edit-btn" , function(){
     var newTodo = prompt("Edit Todo value : ");
-    if(newTodo !== ""){
-
+    if (newTodo !== "") {
+      $(this).closest("#sub-div").find("li").text(newTodo);
     }
   });
 });
