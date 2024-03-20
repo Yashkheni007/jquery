@@ -1,0 +1,114 @@
+body{
+  margin-top: 70px;
+  /* display: flex;
+  justify-content: center; */
+}
+
+#heading-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 0px;
+}
+
+#main-div {
+  /* display: flex;
+  justify-content: center; */
+  padding: 30px;
+  width: 550px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#sub-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+#detail-div{
+  width: 47%;
+}
+
+#split-div{
+  width: 39%;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: grid;
+  align-content: space-between;
+}
+
+label{
+  font-size:12px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="number"]{
+  width: 100%;
+  padding: 7px;
+  margin-top: 3px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: monospace;
+  text-align: right;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+button{
+  width: 80px;
+  padding: 7px;
+  margin-bottom: 8px;
+  margin-right: 4px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #4a47dc;
+  color: white;
+  font-family: monospace;
+}
+
+button:hover{
+  background-color:antiquewhite;
+}
+
+span{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+}
+
+.totalValue{
+  display: flex;
+  justify-content: end;
+  margin: 0px;
+  font-family: monospace;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+#tipAmount-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+#totalAmount-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+#reset-btn{
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  font-family: none;
+}

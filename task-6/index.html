@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Splitter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="heading-div">
+      <h3>S P L I<br />T T E R</h3>
+      <div id="main-div">
+        <div id="sub-div">
+          <div id="detail-div">
+            <label for="bill">Bill</label><br />
+            <input type="number" name="bill" id="bill" /><br />
+            <p></p>
+            <label for="tip">Select Tip %</label><br />
+            <button style="margin-top: 9px">5%</button>
+            <button style="margin-top: 9px">10%</button>
+            <button style="margin-right: 0px; margin-top: 9px">15%</button>
+            <button>25%</button>
+            <button>50%</button>
+            <button style="margin-right: 0px">40</button>
+            <p></p>
+            <label for="people">Number of people</label><br />
+            <input type="number" name="people" id="people" />
+          </div>
+          <div id="split-div">
+            <div id="tipAmount-div">
+              <span>Tip Amount <br />/person</span><br />
+              <p class="totalValue">₹0.00</p>
+            </div>
+            <div id="totalAmount-div">
+              <span>Total <br />/person</span><br />
+              <p class="totalValue">₹0.00</p>
+            </div>
+            <button type="reset" id="reset-btn">RESET</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
