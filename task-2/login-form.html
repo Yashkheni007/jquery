@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>login form</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="jquery.js"></script>
-</head>
+  <body>
+    <div class="main-div">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <div>
+          <label for="name">Name</label><br />
+          <input type="text" id="name" />
+          <span class="error" id="nameError"></span>
+          <p></p>
 
-<body>
-  <div class="main-div">
-    <h2>Login</h2>
-    <form id="loginForm">
-      <div>
-        <label for="name">Name</label><br />
-        <input type="text" id="name" />
-        <span class="error" id="nameError"></span>
-        <p></p>
+          <label for="email">Email</label><br />
+          <input type="email" id="email" />
+          <span class="error" id="emailError"></span>
+          <p></p>
 
-        <label for="email">Email</label><br />
-        <input type="email" id="email" />
-        <span class="error" id="emailError"></span>
-        <p></p>
+          <label for="password">Password</label><br />
+          <input type="password" id="password" />
+          <span class="error" id="passwordError"></span>
+          <p></p>
 
-        <label for="password">Password</label><br />
-        <input type="password" id="password" />
-        <span class="error" id="passwordError"></span>
-        <p></p>
+          <label for="confirmPassword">Confirm password</label><br />
+          <input type="password" id="confirmPassword" />
+          <span class="error" id="confirmPasswordError"></span>
+          <p></p>
 
-        <label for="confirmPassword">Confirm password</label><br />
-        <input type="password" id="confirmPassword" />
-        <span class="error" id="confirmPasswordError"></span>
-        <p></p>
-
-        <button type="submit">Submit</button>
-      </div>
-    </form>
-  </div>
-</body>
-
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>

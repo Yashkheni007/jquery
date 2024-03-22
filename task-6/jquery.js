@@ -2,7 +2,6 @@ $(document).ready(function () {
   function calculateTip(percentage) {
     var billAmount = parseFloat($("#bill").val());
     var totalPeople = $("#people").val();
-debugger
     if (billAmount === "") {
       alert("Please enter Bill Amount!");
     }
@@ -23,7 +22,7 @@ debugger
     calculateTip(percentage);
   });
 
-  $("#reset-btn").on("click" ,function(){
+  $("#reset-btn").on("click", function () {
     $("#bill").val("");
     $("#people").val("");
     $("#errorMsg").val("");

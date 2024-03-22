@@ -1,15 +1,15 @@
-body{
+body {
   margin-top: 70px;
   background-color: #c5e4e7;
 }
 
-#heading-div{
+#heading-div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-h3{
+h3 {
   text-align: center;
   font-size: 25px;
   margin-top: 0px;
@@ -25,16 +25,16 @@ h3{
   background-color: white;
 }
 
-#sub-div{
+#sub-div {
   display: flex;
   justify-content: space-between;
 }
 
-#detail-div{
+#detail-div {
   width: 47%;
 }
 
-#split-div{
+#split-div {
   width: 39%;
   padding: 25px;
   border-radius: 10px;
@@ -44,14 +44,14 @@ h3{
   color: white;
 }
 
-label{
-  font-size:12px;
-  font-family: 'Courier New', Courier, monospace;
+label {
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   color: #00474b;
 }
 
-input[type="number"]{
+input[type="number"] {
   width: 100%;
   padding: 7px;
   margin-top: 3px;
@@ -73,7 +73,7 @@ input:focus {
   border-color: #2db0a3;
 }
 
-button{
+button {
   width: 80px;
   padding: 7px;
   margin-bottom: 8px;
@@ -86,18 +86,18 @@ button{
   font-weight: bold;
 }
 
-button:hover{
+button:hover {
   background-color: #9fe8de;
   color: #00474b;
   cursor: pointer;
 }
 
-span{
-  font-family: 'Courier New', Courier, monospace;
+span {
+  font-family: "Courier New", Courier, monospace;
   font-size: 12px;
 }
 
-.totalValue{
+.totalValue {
   display: flex;
   justify-content: end;
   margin: 0px;
@@ -107,17 +107,17 @@ span{
   color: #2db0a3;
 }
 
-#tipAmount-div{
+#tipAmount-div {
   display: flex;
   justify-content: space-between;
 }
 
-#totalAmount-div{
+#totalAmount-div {
   display: flex;
   justify-content: space-between;
 }
 
-#reset-btn{
+#reset-btn {
   width: 100%;
   margin-bottom: 0px;
   margin-top: 40px;
@@ -127,6 +127,6 @@ span{
   border: none;
 }
 
-#reset-btn:hover{
+#reset-btn:hover {
   background-color: #35cfc0;
 }

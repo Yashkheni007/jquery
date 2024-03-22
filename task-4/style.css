@@ -1,11 +1,11 @@
-body{
+body {
   display: flex;
   justify-content: center;
   margin-top: 100px;
   background-color: #ccdbdc;
 }
 
-#main-div{
+#main-div {
   padding: 30px;
   height: fit-content;
   width: 500px;
@@ -15,27 +15,27 @@ body{
   background-color: #9ad1d4;
 }
 
-h2{
+h2 {
   color: #00344b;
   margin-top: 0px;
   margin-bottom: 30px;
   text-align: center;
 }
 
-input{
+input {
   background-color: #f5f3f4;
   border: 1px solid black;
 }
 
-#endDate-lbl{
+#endDate-lbl {
   margin-left: 110px;
 }
 
-p{
+p {
   text-align: center;
 }
 
-#calculate{
+#calculate {
   width: 100%;
   padding: 7px;
   border: 1px solid #b8b5b5;
@@ -45,7 +45,7 @@ p{
   font-family: monospace;
 }
 
-#calculate:hover{
+#calculate:hover {
   cursor: pointer;
   background-color: #27a76b;
 }
