@@ -89,6 +89,7 @@ button{
 button:hover{
   background-color: #9fe8de;
   color: #00474b;
+  cursor: pointer;
 }
 
 span{
