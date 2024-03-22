@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Splitter</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.js"></script>
   </head>
   <body>
     <div id="heading-div">
@@ -16,24 +18,25 @@
             <input type="number" name="bill" id="bill" /><br />
             <p></p>
             <label for="tip">Select Tip %</label><br />
-            <button style="margin-top: 9px">5%</button>
-            <button style="margin-top: 9px">10%</button>
-            <button style="margin-right: 0px; margin-top: 9px">15%</button>
-            <button>25%</button>
-            <button>50%</button>
-            <button style="margin-right: 0px">40</button>
+            <button style="margin-top: 9px" class="selectTipAmount">5%</button>
+            <button style="margin-top: 9px" class="selectTipAmount">10%</button>
+            <button style="margin-right: 0px; margin-top: 9px" class="selectTipAmount">15%</button>
+            <button class="selectTipAmount">25%</button>
+            <button class="selectTipAmount">50%</button>
+            <button style="margin-right: 0px" id="40">40</button>
             <p></p>
-            <label for="people">Number of people</label><br />
-            <input type="number" name="people" id="people" />
+            <label for="people">Number of people</label>
+            <span id="errorMsg" style="margin-left: 45px; color: red;"></span><br>
+            <input type="number" name="people" id="people"/>
           </div>
           <div id="split-div">
             <div id="tipAmount-div">
-              <span>Tip Amount <br />/person</span><br />
-              <p class="totalValue">₹0.00</p>
+              <span>Tip Amount <br />&nbsp;/person</span><br />
+              <p class="totalValue" id="tipPerPerson">₹0.00</p>
             </div>
             <div id="totalAmount-div">
-              <span>Total <br />/person</span><br />
-              <p class="totalValue">₹0.00</p>
+              <span>Total <br />&nbsp;/person</span><br />
+              <p class="totalValue" id="totalPerPerson">₹0.00</p>
             </div>
             <button type="reset" id="reset-btn">RESET</button>
           </div>

@@ -1,7 +1,6 @@
 body{
   margin-top: 70px;
-  /* display: flex;
-  justify-content: center; */
+  background-color: #c5e4e7;
 }
 
 #heading-div{
@@ -14,16 +13,16 @@ h3{
   text-align: center;
   font-size: 25px;
   margin-top: 0px;
+  color: #00474b;
 }
 
 #main-div {
-  /* display: flex;
-  justify-content: center; */
   padding: 30px;
   width: 550px;
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
 }
 
 #sub-div{
@@ -38,15 +37,18 @@ h3{
 #split-div{
   width: 39%;
   padding: 25px;
-  border: 1px solid #ccc;
   border-radius: 10px;
   display: grid;
   align-content: space-between;
+  background-color: #00474b;
+  color: white;
 }
 
 label{
   font-size:12px;
   font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #00474b;
 }
 
 input[type="number"]{
@@ -66,20 +68,27 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
+input:focus {
+  outline: none;
+  border-color: #2db0a3;
+}
+
 button{
   width: 80px;
   padding: 7px;
   margin-bottom: 8px;
   margin-right: 4px;
-  border: 1px solid #ccc;
+  border: none;
   border-radius: 5px;
-  background-color: #4a47dc;
   color: white;
   font-family: monospace;
+  background-color: #00474b;
+  font-weight: bold;
 }
 
 button:hover{
-  background-color:antiquewhite;
+  background-color: #9fe8de;
+  color: #00474b;
 }
 
 span{
@@ -94,6 +103,7 @@ span{
   font-family: monospace;
   font-size: xx-large;
   font-weight: bold;
+  color: #2db0a3;
 }
 
 #tipAmount-div{
@@ -111,4 +121,11 @@ span{
   margin-bottom: 0px;
   margin-top: 40px;
   font-family: none;
+  background-color: #9fe8de;
+  color: #00474b;
+  border: none;
+}
+
+#reset-btn:hover{
+  background-color: #35cfc0;
 }
