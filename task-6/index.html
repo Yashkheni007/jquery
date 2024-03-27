@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Splitter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.js"></script>
+  </head>
+  <body>
+    <div id="heading-div">
+      <h3>S P L I<br />T T E R</h3>
+      <div id="main-div">
+        <div id="sub-div">
+          <div id="detail-div">
+            <label for="bill">Bill</label><br />
+            <input type="number" name="bill" id="bill" /><br />
+            <p></p>
+            <label for="tip">Select Tip %</label><br />
+            <button style="margin-top: 9px" class="selectTipAmount">5%</button>
+            <button style="margin-top: 9px" class="selectTipAmount">10%</button>
+            <button style="margin-right: 0px; margin-top: 9px" class="selectTipAmount">15%</button>
+            <button class="selectTipAmount">25%</button>
+            <button class="selectTipAmount">40%</button>
+            <button style="margin-right: 0px" class="selectTipAmount">50%</button>
+            <p></p>
+            <label for="people">Number of people</label>
+            <span id="errorMsg" style="margin-left: 45px; color: red;"></span><br>
+            <input type="number" name="people" id="people"/>
+          </div>
+          <div id="split-div">
+            <div id="tipAmount-div">
+              <span>Tip Amount <br />&nbsp;/person</span><br />
+              <p class="totalValue" id="tipPerPerson">₹0.00</p>
+            </div>
+            <div id="totalAmount-div">
+              <span>Total <br />&nbsp;/person</span><br />
+              <p class="totalValue" id="totalPerPerson">₹0.00</p>
+            </div>
+            <button type="reset" id="reset-btn">RESET</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
